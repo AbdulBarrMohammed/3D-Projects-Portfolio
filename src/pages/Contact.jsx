@@ -24,8 +24,11 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setIsLoading(true);
+
+        //run running fox animation when send message button is pressed
         setCurrentAnimation('hit');
 
+        //email js to send message to my gmail
         emailjs.send(
             import.meta.env.VITE_APP_EMIALJS_SERVICE_ID,
             import.meta.env.VITE_APP_EMIALJS_TEMPLATE_ID,
