@@ -85,10 +85,10 @@ const Home = () => {
                     scale={islandScale}
                 />
                 <Plane
-                isRotating={isRotating}
-                planeScale={planeScale}
-                planePosition={planePosition}
-                rotation={[0, 20, 0]}
+                    isRotating={isRotating}
+                    scale={planeScale}
+                    position={planePosition}
+                    rotation={[0, 20, 0]}
                 />
 
             </Suspense>

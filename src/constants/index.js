@@ -79,7 +79,51 @@ export const skills = [
         type: 'Backend'
     },
 
+]
 
+
+export const projects = [
+    {
+        imageUrl: 'test',
+        title: 'SocialSoothe',
+        link: 'test',
+        description: 'Web application for people with social anxiety that offers them daily mood journal check ins, three different breathing exercises and a social tree where'
+        + 'before any social event that are asked a questionare on how they will deal with it and'
+        + 'after completing the social event that are rewarded a flower that goes on their social tree (which is a virtual tree).'
+        +'completing each social tree also gives them leafs which act as currency that allows them to payout to get different rewards that include'
+        +'new background sounds for breathing exercises, background color and new fonts'
+    },
+    {
+        imageUrl: 'test',
+        title: 'SortiFox',
+        link: 'test',
+        description:
+        'Web application that allows college students to save and sort their school work files including pdf and images into different folders'
+        + 'as well as be able to download their stored files and share it with other people through email'
+    },
+
+    {
+        imageUrl: 'test',
+        title: 'Arty Portfolio',
+        link: 'test',
+        description: 'Virtual artist portfolio web application that allows artist to save their artwork or their favorite artists artwork in a virtual portfolio'
+        + 'and allows them to sort each artwork by artists, location, art medium and art style'
+    },
+    {
+        imageUrl: 'test',
+        title: 'CvCraft',
+        link: 'test',
+        description: 'Web application that allows users to create a resume for college or work and be able to download their created resume as a pdf'
+    },
+
+    {
+        imageUrl: 'test',
+        title: 'Arthimetic',
+        link: 'test',
+        description: 'Kotlin moblie app for kids to learn simple arithmetic,'
+        + 'it will ask the user for the difficulty level, the operation to practice, and the number of questions. The difficulty level will be easy, medium and hard'
+        + 'and after all questions are answered it tell thems how many they got right and wrong'
+    },
 
 
 ]
