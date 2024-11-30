@@ -11,6 +11,12 @@ import kotlin from "../assets/logos/icons8-kotlin-48.png"
 import post from "../assets/logos/icons8-postgresql-48.png"
 import typescript from "../assets/logos/icons8-typescript-48.png"
 import express from "../assets/logos/icons8-express-js-50.png"
+import socialSoothe from "../assets/logos/breeze.png"
+import arty from "../assets/logos/artstation.svg"
+import fox from "../assets/logos/fox.svg"
+import cv from '../assets/logos/paper.png'
+import math from '../assets/logos/calculator.png'
+
 
 export const skills = [
     {
@@ -84,17 +90,16 @@ export const skills = [
 
 export const projects = [
     {
-        imageUrl: 'test',
+        imageUrl: socialSoothe,
         title: 'SocialSoothe',
         link: 'test',
-        description: 'Web application for people with social anxiety that offers them daily mood journal check ins, three different breathing exercises and a social tree where'
-        + 'before any social event that are asked a questionare on how they will deal with it and'
-        + 'after completing the social event that are rewarded a flower that goes on their social tree (which is a virtual tree).'
-        +'completing each social tree also gives them leafs which act as currency that allows them to payout to get different rewards that include'
-        +'new background sounds for breathing exercises, background color and new fonts'
+        description: 'Web application for people with social anxiety that offers them daily mood journal check ins, different breathing exercises and a social tree where'
+        + 'before any social event they are asked a questionare on how they will deal with it and'
+        + 'after completing that social event that are rewarded a flower that goes on their virtual tree.'
+        +' Completing each social tree also gives them leafs which act as currency that allows them to payout to get different rewards.'
     },
     {
-        imageUrl: 'test',
+        imageUrl: fox,
         title: 'SortiFox',
         link: 'test',
         description:
@@ -103,21 +108,21 @@ export const projects = [
     },
 
     {
-        imageUrl: 'test',
+        imageUrl: arty,
         title: 'Arty Portfolio',
         link: 'test',
         description: 'Virtual artist portfolio web application that allows artist to save their artwork or their favorite artists artwork in a virtual portfolio'
         + 'and allows them to sort each artwork by artists, location, art medium and art style'
     },
     {
-        imageUrl: 'test',
+        imageUrl: cv,
         title: 'CvCraft',
         link: 'test',
         description: 'Web application that allows users to create a resume for college or work and be able to download their created resume as a pdf'
     },
 
     {
-        imageUrl: 'test',
+        imageUrl: math,
         title: 'Arthimetic',
         link: 'test',
         description: 'Kotlin moblie app for kids to learn simple arithmetic,'
