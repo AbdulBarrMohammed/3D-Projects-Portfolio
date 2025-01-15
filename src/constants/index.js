@@ -14,9 +14,9 @@ import express from "../assets/logos/icons8-express-js-50.png"
 import socialSoothe from "../assets/logos/breeze.png"
 import arty from "../assets/logos/artstation.svg"
 import fox from "../assets/logos/fox.svg"
-import cv from '../assets/logos/paper.png'
 import math from '../assets/logos/calculator.png'
-
+import resumeLogo from '../assets/logos/resumeswiftLogo.png'
+import music from '../assets/logos/music-circle.svg'
 
 export const skills = [
     {
@@ -91,16 +91,14 @@ export const skills = [
 export const projects = [
     {
         imageUrl: socialSoothe,
-        title: 'SocialSoothe',
-        link: 'test',
-        description: 'Web application for people with social anxiety that offers them daily mood journal check ins, different breathing exercises and a social tree where'
-        + 'before any social event they are asked a questionare on how they will deal with it and'
-        + 'after completing that social event that are rewarded a flower that goes on their virtual tree.'
-        +' Completing each social tree also gives them leafs which act as currency that allows them to payout to get different rewards.'
+        title: 'Social Soothe',
+        link: 'https://social-soothe-frontend.onrender.com/',
+        description:
+        "This web application is designed for individuals with social anxiety, providing tools to promote emotional well-being and confidence in social situations. Users can engage in daily mood journal check-ins and practice guided breathing exercises to manage stress. Before attending a social event, they complete a tailored questionnaire to plan how they will approach the experience. After successfully completing the event, they are rewarded with a virtual flower that adds to their personal 'social tree.' Completing a flower earns users leaves, which serve as in-app currency to redeem various rewards. This gamified approach encourages personal growth and celebrates achievements in managing social anxiety."
     },
     {
         imageUrl: fox,
-        title: 'SortiFox',
+        title: 'Sorti Fox',
         link: 'test',
         description:
         'Web application that allows college students to save and sort their school work files including pdf and images into different folders'
@@ -108,26 +106,23 @@ export const projects = [
     },
 
     {
-        imageUrl: arty,
-        title: 'Arty Portfolio',
-        link: 'test',
-        description: 'Virtual artist portfolio web application that allows artist to save their artwork or their favorite artists artwork in a virtual portfolio'
-        + 'and allows them to sort each artwork by artists, location, art medium and art style'
+        imageUrl: music,
+        title: 'Lyric Match',
+        link: 'https://lyric-match.vercel.app/',
+        description: 'Lyric Match is a web application designed to help users identify songs and artists by entering a snippet of lyrics. The app searches for songs that contain the provided lyrics and displays a list of matching tracks. Users can explore the results further by accessing a preview audio clip for each song, making it easy to find and recognize the desired track.'
     },
     {
-        imageUrl: cv,
-        title: 'CvCraft',
-        link: 'test',
-        description: 'Web application that allows users to create a resume for college or work and be able to download their created resume as a pdf'
+        imageUrl: resumeLogo,
+        title: 'Resume Swift',
+        link: 'https://resumeswift.netlify.app',
+        description: 'Resume Swift is a web application tailored for college students across all majors, offering a quick and efficient way to create professional resumes. By simply providing essential details such as work experience, contact information, projects, skills, and education, students can generate a polished resume in minutes. The platform also allows users to download their completed resumes as PDF files, making it easy to save and share for job applications.'
     },
 
     {
         imageUrl: math,
-        title: 'Arthimetic',
+        title: 'Selfie App',
         link: 'test',
-        description: 'Kotlin moblie app for kids to learn simple arithmetic,'
-        + 'it will ask the user for the difficulty level, the operation to practice, and the number of questions. The difficulty level will be easy, medium and hard'
-        + 'and after all questions are answered it tell thems how many they got right and wrong'
+        description: 'This Kotlin-based mobile application provides users with an intuitive and engaging experience. Upon logging in, users can capture a selfie simply by shaking their device, utilizing motion detection for an interactive touch. The captured image is then displayed on the screen, and tapping on the image allows users to view it in full-screen mode for a closer look.'
     },
 
 
