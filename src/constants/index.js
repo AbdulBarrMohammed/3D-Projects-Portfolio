@@ -12,9 +12,8 @@ import post from "../assets/logos/icons8-postgresql-48.png"
 import typescript from "../assets/logos/icons8-typescript-48.png"
 import express from "../assets/logos/icons8-express-js-50.png"
 import socialSoothe from "../assets/logos/breeze.png"
-import arty from "../assets/logos/artstation.svg"
 import fox from "../assets/logos/fox.svg"
-import math from '../assets/logos/calculator.png'
+import s from '../assets/logos/alpha-s.svg'
 import resumeLogo from '../assets/logos/resumeswiftLogo.png'
 import music from '../assets/logos/music-circle.svg'
 
@@ -99,7 +98,7 @@ export const projects = [
     {
         imageUrl: fox,
         title: 'Sorti Fox',
-        link: 'test',
+        link: 'https://github.com/AbdulBarrMohammed/Sorti-Fox',
         description:
         'Web application that allows college students to save and sort their school work files including pdf and images into different folders'
         + 'as well as be able to download their stored files and share it with other people through email'
@@ -119,9 +118,9 @@ export const projects = [
     },
 
     {
-        imageUrl: math,
+        imageUrl: s,
         title: 'Selfie App',
-        link: 'test',
+        link: 'https://github.com/AbdulBarrMohammed/Selfie-App',
         description: 'This Kotlin-based mobile application provides users with an intuitive and engaging experience. Upon logging in, users can capture a selfie simply by shaking their device, utilizing motion detection for an interactive touch. The captured image is then displayed on the screen, and tapping on the image allows users to view it in full-screen mode for a closer look.'
     },
 
