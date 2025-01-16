@@ -20,8 +20,8 @@ const renderContent = {
     ),
     2: (
         <InfoBox
-            text="Have a deep desire and drive to in being a software Engineer with learning many
-            skills this past year"
+            text="Have a deep desire and drive in being a software Engineer with learning many
+            skills over the past and current years"
             link="/about"
             btnText="Learn more"
 

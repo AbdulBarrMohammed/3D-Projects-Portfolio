@@ -9,13 +9,13 @@ const Navbar = () => {
                 <p className="blue-gradient_text">BM</p>
             </NavLink>
             <nav className="flex text-lg gap-7 font-medium">
-                <NavLink to="/about" className='text-black hover:text-blue-500'>
+                <NavLink to="/about" className='text-black hover:font-bold'>
                 About
                 </NavLink>
-                <NavLink to="/projects" className='text-black hover:text-blue-500'>
+                <NavLink to="/projects" className='text-black hover:font-bold'>
                 Projects
                 </NavLink>
-                <NavLink to="/contact" className='text-black hover:text-blue-500'>
+                <NavLink to="/contact" className='text-black hover:font-bold'>
                 Contact
                 </NavLink>
 

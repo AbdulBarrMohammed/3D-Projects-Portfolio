@@ -69,11 +69,6 @@ export const skills = [
         type: 'Frontend and Backend'
     },
     {
-        imageUrl: django,
-        name: "Django",
-        type: 'Backend'
-    },
-    {
         imageUrl: kotlin,
         name: "Kotlin",
         type: 'Moblie Development'
