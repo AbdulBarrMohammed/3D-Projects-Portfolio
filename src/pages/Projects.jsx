@@ -13,7 +13,7 @@ const Projects = () => {
 
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
                 <p>Over the years I have worked on numerous moblie and web application projects, below are some of the projects
-                    that I have completed with links to their github for code source. Feel free to click the link and
+                    that I have completed with links to their github or deployed live link. Feel free to click the link and
                     explore each project deeper.
                 </p>
             </div>

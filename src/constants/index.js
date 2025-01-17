@@ -86,7 +86,7 @@ export const projects = [
     {
         imageUrl: socialSoothe,
         title: 'Social Soothe',
-        link: 'https://social-soothe-frontend.onrender.com/',
+        link: 'https://social-soothe-frontend.onrender.com',
         description:
         "This web application is designed for individuals with social anxiety, providing tools to promote emotional well-being and confidence in social situations. Users can engage in daily mood journal check-ins and practice guided breathing exercises to manage stress. Before attending a social event, they complete a tailored questionnaire to plan how they will approach the experience. After successfully completing the event, they are rewarded with a virtual flower that adds to their personal 'social tree.' Completing a flower earns users leaves, which serve as in-app currency to redeem various rewards. This gamified approach encourages personal growth and celebrates achievements in managing social anxiety."
     },
