@@ -87,6 +87,7 @@ export const projects = [
         imageUrl: socialSoothe,
         title: 'Social Soothe',
         link: 'https://social-soothe-frontend.onrender.com',
+        github: 'https://github.com/AbdulBarrMohammed/Social-Soothe',
         description:
         "This web application is designed for individuals with social anxiety, providing tools to promote emotional well-being and confidence in social situations. Users can engage in daily mood journal check-ins and practice guided breathing exercises to manage stress. Before attending a social event, they complete a tailored questionnaire to plan how they will approach the experience. After successfully completing the event, they are rewarded with a virtual flower that adds to their personal 'social tree.' Completing a flower earns users leaves, which serve as in-app currency to redeem various rewards. This gamified approach encourages personal growth and celebrates achievements in managing social anxiety."
     },
@@ -94,6 +95,7 @@ export const projects = [
         imageUrl: fox,
         title: 'Sorti Fox',
         link: 'https://github.com/AbdulBarrMohammed/Sorti-Fox',
+        github: 'https://github.com/AbdulBarrMohammed/Sorti-Fox',
         description:
         'Web application that allows college students to save and sort their school work files including pdf and images into different folders'
         + 'as well as be able to download their stored files and share it with other people through email'
@@ -103,12 +105,14 @@ export const projects = [
         imageUrl: music,
         title: 'Lyric Match',
         link: 'https://lyric-match.vercel.app/',
+        github: 'https://github.com/AbdulBarrMohammed/Lyric-Match',
         description: 'Lyric Match is a web application designed to help users identify songs and artists by entering a snippet of lyrics. The app searches for songs that contain the provided lyrics and displays a list of matching tracks. Users can explore the results further by accessing a preview audio clip for each song, making it easy to find and recognize the desired track.'
     },
     {
         imageUrl: resumeLogo,
         title: 'Resume Swift',
         link: 'https://resumeswift.netlify.app',
+        github: 'https://github.com/AbdulBarrMohammed/Resume-Swift',
         description: 'Resume Swift is a web application tailored for college students across all majors, offering a quick and efficient way to create professional resumes. By simply providing essential details such as work experience, contact information, projects, skills, and education, students can generate a polished resume in minutes. The platform also allows users to download their completed resumes as PDF files, making it easy to save and share for job applications.'
     },
 
@@ -116,6 +120,7 @@ export const projects = [
         imageUrl: s,
         title: 'Selfie App',
         link: 'https://github.com/AbdulBarrMohammed/Selfie-App',
+        github: 'https://github.com/AbdulBarrMohammed/Selfie-App',
         description: 'This Kotlin-based mobile application provides users with an intuitive and engaging experience. Upon logging in, users can capture a selfie simply by shaking their device, utilizing motion detection for an interactive touch. The captured image is then displayed on the screen, and tapping on the image allows users to view it in full-screen mode for a closer look.'
     },
 

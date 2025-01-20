@@ -16,12 +16,13 @@ const renderContent = {
     1: (
         <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mex-5">
             Hi, my name is <span className="font-semibold">Barr Mohammed</span> 😃
+            <p>Click for animation</p>
         </h1>
     ),
     2: (
         <InfoBox
-            text="Have a deep desire and drive in being a software Engineer with learning many
-            skills over the past and current years"
+            text="Have a deep desire and drive in Software Development with learning many
+            skills over the past and current year"
             link="/about"
             btnText="Learn more"
 
@@ -29,7 +30,7 @@ const renderContent = {
     ),
     3: (
         <InfoBox
-            text="Created many projects with React, SQL, Javascript and so much more"
+            text="Created many projects with React, SQL, Javascript, Kotlin and so much more"
             link="/projects"
             btnText="Visit my portfolio"
 
