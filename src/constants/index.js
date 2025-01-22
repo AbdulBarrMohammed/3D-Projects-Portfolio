@@ -94,7 +94,7 @@ export const projects = [
     {
         imageUrl: fox,
         title: 'Sorti Fox',
-        link: 'https://github.com/AbdulBarrMohammed/Sorti-Fox',
+        link: '',
         github: 'https://github.com/AbdulBarrMohammed/Sorti-Fox',
         description:
         'Web application that allows college students to save and sort their school work files including pdf and images into different folders'
@@ -119,7 +119,7 @@ export const projects = [
     {
         imageUrl: s,
         title: 'Selfie App',
-        link: 'https://github.com/AbdulBarrMohammed/Selfie-App',
+        link: '',
         github: 'https://github.com/AbdulBarrMohammed/Selfie-App',
         description: 'This Kotlin-based mobile application provides users with an intuitive and engaging experience. Upon logging in, users can capture a selfie simply by shaking their device, utilizing motion detection for an interactive touch. The captured image is then displayed on the screen, and tapping on the image allows users to view it in full-screen mode for a closer look.'
     },

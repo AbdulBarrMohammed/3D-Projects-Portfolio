@@ -13,7 +13,7 @@ const Projects = () => {
 
             <div className='mt-5 flex flex-col gap-3 text-slate-500'>
                 <p>Over the years I have worked on numerous moblie and web application projects, below are some of the projects
-                    that I have completed with links to their github or deployed live link. Feel free to click the link and
+                    that I have completed with links to their github and/or deployed live link. Feel free to click the link and
                     explore each project deeper.
                 </p>
             </div>
@@ -41,16 +41,22 @@ const Projects = () => {
 
                                 <div className='flex gap-3'>
 
-                                    <div className='mt-5 flex items-center gap-2 font-poppins'>
-                                        <Link
-                                            to={project.link}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="font-semibold text-blue-600"
-                                        >
-                                            Live Link
-                                        </Link>
-                                    </div>
+                                    {project.link &&
+                                        <div className='mt-5 flex items-center gap-2 font-poppins'>
+                                            <Link
+                                                to={project.link}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="font-semibold text-blue-600"
+                                            >
+                                                Live Link
+                                            </Link>
+                                        </div>
+                                    }
+
+
+
+
 
                                     <div className='mt-5 flex items-center gap-2 font-poppins'>
                                         <Link
